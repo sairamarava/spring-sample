@@ -1,0 +1,60 @@
+Inside this folder
+.mvn  we have a wrapper properties that specifies configuration and version everything
+if you use intellij need not install maven its is inbuilt
+mvnw--
+mvnw.cmd for winodws code for dnowloading maven in this
+couple of files for git repo
+.md for instructions for getting started
+pom.xml: project object model heart of maven - config dependencie
+XML style-- open close tags with data, artifact id version, description....
+maven uses this file to manage depnd and project
+
+In src/main: our main code actual code
+    two sub java/ --our java files  entry point to application
+        non java files resources --non java config html css js config files called app.props one or more key value pairs, port, db settings so on
+   src/test: auotmated test
+
+ Dependency managaement::: tomcat web webmvc json logging
+ we can use one starter dependency -- spring-boot-starter-web(all in one)
+ For dependency mgnt:
+ 1. Go to Maven central to find dependencies for our project
+ npm pypi etc
+ 2. to use this in our project copy piece of code (choose maven or gradle or groovy)
+ 3. we have dependency snippets there
+ 4. Go to pom.xml, go to dependecnies, add the code after two tags we paste that
+ 5. For synchronizing maven changes whenever new depency added we should synchronize or restart
+One way to add dependency
+Another way
+1. Cntrl+N to bring up context menu
+2. search spring-boot-starter-web
+3. add then choosing correct one
+
+
+MVC Arhictecture:
+Model :
+Application data live usually connect to db data+logic
+View : what user sees html css js static or dynamic using thymeleaf
+Controller: traffic controller incoming req interacts with model and view
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
